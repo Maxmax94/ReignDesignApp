@@ -26,6 +26,7 @@ class NewsListViewController: UIViewController {
 
     }
     
+    // Refresh TableView
     @objc fileprivate func reloadData() {
         if news.count > 0 {
             tvNews.scrollToRow(at: IndexPath(row: 0, section: 0), at: .bottom, animated: false)
@@ -39,6 +40,7 @@ class NewsListViewController: UIViewController {
         }
     }
     
+    //Simple Http Request
     func loadData() {
         Alamofire.request("http://hn.algolia.com/api/v1/search_by_date?query=ios")
             .responseJSON { response in
@@ -53,6 +55,7 @@ class NewsListViewController: UIViewController {
 
     }
     
+    // Convert the String Date in the difference between it and current date
     func offsetFrom(date: String) -> String {
         
         let dateFormatter = DateFormatter()
@@ -62,7 +65,6 @@ class NewsListViewController: UIViewController {
             assert(false, "no date from string")
             return ""
         }
-        
         
         let dayHourMinuteSecond: Set<Calendar.Component> = [.day, .hour, .minute, .second]
         let difference = NSCalendar.current.dateComponents(dayHourMinuteSecond, from: newDate, to: Date())
@@ -97,6 +99,7 @@ class NewsListViewController: UIViewController {
     }
 }
 
+//TableView management
 extension NewsListViewController: UITableViewDataSource {
     
     func tableView(_ tableView: UITableView, numberOfRowsInSection section: Int) -> Int {
