@@ -21,7 +21,6 @@
 		A3C7606E1F59432300FE0CF8 /* News.swift in Sources */ = {isa = PBXBuildFile; fileRef = A3C7606D1F59432300FE0CF8 /* News.swift */; };
 		A3C760701F59470100FE0CF8 /* NewsListCellView.swift in Sources */ = {isa = PBXBuildFile; fileRef = A3C7606F1F59470100FE0CF8 /* NewsListCellView.swift */; };
 		A3CBEC2E1F5952AC00B12560 /* NewsWebViewViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = A3CBEC2D1F5952AC00B12560 /* NewsWebViewViewController.swift */; };
-		A3CBEC301F59881100B12560 /* DateHelper.swift in Sources */ = {isa = PBXBuildFile; fileRef = A3CBEC2F1F59881100B12560 /* DateHelper.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXCopyFilesBuildPhase section */
@@ -52,7 +51,6 @@
 		A3C7606D1F59432300FE0CF8 /* News.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = News.swift; sourceTree = "<group>"; };
 		A3C7606F1F59470100FE0CF8 /* NewsListCellView.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = NewsListCellView.swift; sourceTree = "<group>"; };
 		A3CBEC2D1F5952AC00B12560 /* NewsWebViewViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = NewsWebViewViewController.swift; sourceTree = "<group>"; };
-		A3CBEC2F1F59881100B12560 /* DateHelper.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = DateHelper.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -92,7 +90,6 @@
 			children = (
 				A3C760501F593E0000FE0CF8 /* AppDelegate.swift */,
 				A3C760521F593E0000FE0CF8 /* NewsListViewController.swift */,
-				A3CBEC2F1F59881100B12560 /* DateHelper.swift */,
 				A3C7606F1F59470100FE0CF8 /* NewsListCellView.swift */,
 				A3C7606D1F59432300FE0CF8 /* News.swift */,
 				A3CBEC2D1F5952AC00B12560 /* NewsWebViewViewController.swift */,
@@ -211,7 +208,6 @@
 				A3CBEC2E1F5952AC00B12560 /* NewsWebViewViewController.swift in Sources */,
 				A3C7606E1F59432300FE0CF8 /* News.swift in Sources */,
 				A3C760701F59470100FE0CF8 /* NewsListCellView.swift in Sources */,
-				A3CBEC301F59881100B12560 /* DateHelper.swift in Sources */,
 				A3C760531F593E0000FE0CF8 /* NewsListViewController.swift in Sources */,
 				A3C760511F593E0000FE0CF8 /* AppDelegate.swift in Sources */,
 			);
